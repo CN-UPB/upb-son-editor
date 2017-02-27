@@ -1,0 +1,18 @@
+authentication:
+    ClientID: create OAuth application on github
+    ClientSecret: OAuth application secret here
+
+
+session:
+    secretKey: randomSecretKeyHere
+
+frontend-redirect: "/loginRedirect.html"
+frontend-host: ""
+
+workspaces-location: "~/son-editor/workspaces/"
+
+allowed-hosts:
+  - "localhost"
+database:
+    location: "production.db"
+testing: False
